@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/ncnn_win32/tools/CMakeLists.txt
+  ncnnoptimize.cpp
+  ncnnoptimize.vcxproj -> D:\ncnn_win32\builds\tools\Debug\ncnnoptimize.exe
+  ncnnoptimize.vcxproj -> D:/ncnn_win32/builds/tools/Debug/ncnnoptimize.pdb (Full PDB)

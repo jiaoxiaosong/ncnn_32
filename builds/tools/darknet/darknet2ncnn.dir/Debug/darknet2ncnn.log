@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/ncnn_win32/tools/darknet/CMakeLists.txt
+  darknet2ncnn.cpp
+  darknet2ncnn.vcxproj -> D:\ncnn_win32\builds\tools\darknet\Debug\darknet2ncnn.exe
+  darknet2ncnn.vcxproj -> D:/ncnn_win32/builds/tools/darknet/Debug/darknet2ncnn.pdb (Full PDB)

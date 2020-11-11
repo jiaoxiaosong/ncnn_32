@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2B8BF521-CA81-3735-B8EE-5770B17924AD}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ncnn_win32\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/ncnn_win32/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ncnn_win32 -BD:/ncnn_win32/builds --check-stamp-file D:/ncnn_win32/builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;D:\ncnn_win32\builds\CMakeFiles\3.17.0-rc2\CMakeCCompiler.cmake;D:\ncnn_win32\builds\CMakeFiles\3.17.0-rc2\CMakeCXXCompiler.cmake;D:\ncnn_win32\builds\CMakeFiles\3.17.0-rc2\CMakeRCCompiler.cmake;D:\ncnn_win32\builds\CMakeFiles\3.17.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ncnn_win32\builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/ncnn_win32/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ncnn_win32 -BD:/ncnn_win32/builds --check-stamp-file D:/ncnn_win32/builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;D:\ncnn_win32\builds\CMakeFiles\3.17.0-rc2\CMakeCCompiler.cmake;D:\ncnn_win32\builds\CMakeFiles\3.17.0-rc2\CMakeCXXCompiler.cmake;D:\ncnn_win32\builds\CMakeFiles\3.17.0-rc2\CMakeRCCompiler.cmake;D:\ncnn_win32\builds\CMakeFiles\3.17.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\ncnn_win32\builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/ncnn_win32/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ncnn_win32 -BD:/ncnn_win32/builds --check-stamp-file D:/ncnn_win32/builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;D:\ncnn_win32\builds\CMakeFiles\3.17.0-rc2\CMakeCCompiler.cmake;D:\ncnn_win32\builds\CMakeFiles\3.17.0-rc2\CMakeCXXCompiler.cmake;D:\ncnn_win32\builds\CMakeFiles\3.17.0-rc2\CMakeRCCompiler.cmake;D:\ncnn_win32\builds\CMakeFiles\3.17.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\ncnn_win32\builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/ncnn_win32/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ncnn_win32 -BD:/ncnn_win32/builds --check-stamp-file D:/ncnn_win32/builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;D:\ncnn_win32\builds\CMakeFiles\3.17.0-rc2\CMakeCCompiler.cmake;D:\ncnn_win32\builds\CMakeFiles\3.17.0-rc2\CMakeCXXCompiler.cmake;D:\ncnn_win32\builds\CMakeFiles\3.17.0-rc2\CMakeRCCompiler.cmake;D:\ncnn_win32\builds\CMakeFiles\3.17.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\ncnn_win32\builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\ncnn_win32\builds\ZERO_CHECK.vcxproj">
+      <Project>{4332727A-93F8-33C6-A309-44B92C4ACAD0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\benchmark\benchncnn.vcxproj">
+      <Project>{711A795D-A9FE-3FD8-9D4A-19E35FD8A352}</Project>
+      <Name>benchncnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tools\caffe\caffe2ncnn.vcxproj">
+      <Project>{B375B348-0970-30B4-A061-6AD02FC89D46}</Project>
+      <Name>caffe2ncnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tools\darknet\darknet2ncnn.vcxproj">
+      <Project>{63774713-1C64-3F29-904A-874A1D16B683}</Project>
+      <Name>darknet2ncnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tools\mxnet\mxnet2ncnn.vcxproj">
+      <Project>{5DBB1532-0374-34F7-A2AE-C5F4B8F2FAB5}</Project>
+      <Name>mxnet2ncnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\src\ncnn.vcxproj">
+      <Project>{2928DC5A-7103-3382-8A97-1A7443F50432}</Project>
+      <Name>ncnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tools\ncnn2mem.vcxproj">
+      <Project>{B2EE9014-5AEA-346C-B7EE-9B8467E143AE}</Project>
+      <Name>ncnn2mem</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tools\ncnnoptimize.vcxproj">
+      <Project>{361D25A2-D365-332E-8F31-026DA0D32759}</Project>
+      <Name>ncnnoptimize</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tools\onnx\onnx2ncnn.vcxproj">
+      <Project>{D5066B6D-FF8E-3773-A450-7A5EE44949D4}</Project>
+      <Name>onnx2ncnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_batchnorm.vcxproj">
+      <Project>{873EE910-8BCE-395A-876A-D3ADB1AE25C5}</Project>
+      <Name>test_batchnorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_binaryop.vcxproj">
+      <Project>{93518520-D690-3609-8EF7-D72ECD312BEF}</Project>
+      <Name>test_binaryop</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_cast.vcxproj">
+      <Project>{375D94DD-CD7A-3F08-AFF6-9632C1FC64AA}</Project>
+      <Name>test_cast</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_clip.vcxproj">
+      <Project>{0FF1CE28-203F-3F1F-BC0B-A2E3FC262534}</Project>
+      <Name>test_clip</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_concat.vcxproj">
+      <Project>{482DC662-168C-3F7B-8452-8934453A2D81}</Project>
+      <Name>test_concat</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_convolution.vcxproj">
+      <Project>{6DB04EBB-EE13-35B2-B7B2-E42D4FA9928D}</Project>
+      <Name>test_convolution</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_convolutiondepthwise.vcxproj">
+      <Project>{16E30CFF-A2A7-3110-B6E4-CA40A85E7608}</Project>
+      <Name>test_convolutiondepthwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_crop.vcxproj">
+      <Project>{6D393995-5B0E-3E77-BF26-6307DD46B388}</Project>
+      <Name>test_crop</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_deconvolution.vcxproj">
+      <Project>{EED98D9C-3426-3752-BA5B-1F98D5DC7676}</Project>
+      <Name>test_deconvolution</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_deconvolutiondepthwise.vcxproj">
+      <Project>{EEC53E12-DF81-32EE-849C-5DF8FA02F936}</Project>
+      <Name>test_deconvolutiondepthwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_deepcopy.vcxproj">
+      <Project>{4308570A-EBF8-38CE-82A7-7B1EC142A489}</Project>
+      <Name>test_deepcopy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_dropout.vcxproj">
+      <Project>{FDA36908-7743-36D1-A1D1-87ECC271AB7F}</Project>
+      <Name>test_dropout</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_eltwise.vcxproj">
+      <Project>{DE0898BA-88F5-31B6-A756-58535D217BF1}</Project>
+      <Name>test_eltwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_elu.vcxproj">
+      <Project>{DDDFC358-6460-3930-841D-B3C27E570435}</Project>
+      <Name>test_elu</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_flatten.vcxproj">
+      <Project>{840D6045-0C46-3742-8786-A4049826E70A}</Project>
+      <Name>test_flatten</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_hardsigmoid.vcxproj">
+      <Project>{9D0EFF84-F9DE-367E-B24A-8052CF10A841}</Project>
+      <Name>test_hardsigmoid</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_hardswish.vcxproj">
+      <Project>{5F3BF379-CAAC-30E5-B9F7-FCADF9F78209}</Project>
+      <Name>test_hardswish</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_innerproduct.vcxproj">
+      <Project>{24F67D03-2C99-3C33-BC66-C4C736B7DFB2}</Project>
+      <Name>test_innerproduct</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_instancenorm.vcxproj">
+      <Project>{0CEBA14F-4B86-3173-86BA-BD4314A82642}</Project>
+      <Name>test_instancenorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_interp.vcxproj">
+      <Project>{9267EF4F-96F9-3438-81B1-757EE10B98DD}</Project>
+      <Name>test_interp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_lrn.vcxproj">
+      <Project>{04645F0D-E59B-36A6-A38D-FCC4171F545A}</Project>
+      <Name>test_lrn</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_memorydata.vcxproj">
+      <Project>{42F79CAE-6FF9-320A-BF3F-A8CA5F893B8F}</Project>
+      <Name>test_memorydata</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_mish.vcxproj">
+      <Project>{FE8B27EE-DA61-36B1-8FCB-C4EDDB9061B4}</Project>
+      <Name>test_mish</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_noop.vcxproj">
+      <Project>{E3265EAF-E487-3F1B-8D7D-B6F0770DA339}</Project>
+      <Name>test_noop</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_normalize.vcxproj">
+      <Project>{F9070415-243A-3A63-AF21-C39CB0F8179B}</Project>
+      <Name>test_normalize</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_packing.vcxproj">
+      <Project>{A731B812-B05B-32C4-84B4-43A6A1D74DD9}</Project>
+      <Name>test_packing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_padding.vcxproj">
+      <Project>{7E6462DA-58DD-342B-85AD-E43D05FD2651}</Project>
+      <Name>test_padding</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_permute.vcxproj">
+      <Project>{35586F1B-ED17-3D30-9AA1-6A32DAE4489F}</Project>
+      <Name>test_permute</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_pixelshuffle.vcxproj">
+      <Project>{2F2930DA-92CC-3C8F-BFC9-C5FF4D0A8026}</Project>
+      <Name>test_pixelshuffle</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_pooling.vcxproj">
+      <Project>{11E4D982-E7BD-3FC7-9B83-557E897E3B43}</Project>
+      <Name>test_pooling</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_prelu.vcxproj">
+      <Project>{1B2844CC-A931-3EE7-A73F-FB80E5B641B3}</Project>
+      <Name>test_prelu</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_relu.vcxproj">
+      <Project>{061D2D4D-935D-36EE-8286-F3445104A022}</Project>
+      <Name>test_relu</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_reorg.vcxproj">
+      <Project>{F308E87B-76B8-371B-A306-B62CB3F00B35}</Project>
+      <Name>test_reorg</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_reshape.vcxproj">
+      <Project>{0A96F20D-C40B-3D5C-BC44-E37274FB5ED1}</Project>
+      <Name>test_reshape</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_roipooling.vcxproj">
+      <Project>{177A98DA-83EA-3D80-A666-A8CBA4E5C934}</Project>
+      <Name>test_roipooling</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_scale.vcxproj">
+      <Project>{D6220EFB-0295-35C7-8457-627154913190}</Project>
+      <Name>test_scale</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_shufflechannel.vcxproj">
+      <Project>{988D3829-91BF-3B4E-899D-7CBD5251DD5B}</Project>
+      <Name>test_shufflechannel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_sigmoid.vcxproj">
+      <Project>{1CE82701-7B72-3546-94B5-B01FB753003D}</Project>
+      <Name>test_sigmoid</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_slice.vcxproj">
+      <Project>{80DD1562-8146-322F-9B53-6FEEDFB6D6CF}</Project>
+      <Name>test_slice</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_softmax.vcxproj">
+      <Project>{7C0E7106-0C6F-3896-9806-29F5F4DD7C01}</Project>
+      <Name>test_softmax</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_tanh.vcxproj">
+      <Project>{A0F3CC3C-5650-35F3-9A33-857ED31ABFE7}</Project>
+      <Name>test_tanh</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\tests\test_unaryop.vcxproj">
+      <Project>{3D4451E9-5A96-3AEE-8B21-DCD12927A671}</Project>
+      <Name>test_unaryop</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

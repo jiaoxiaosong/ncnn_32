@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/ncnn_win32/tests/CMakeLists.txt
+  test_pooling.cpp
+  test_pooling.vcxproj -> D:\ncnn_win32\builds\tests\Debug\test_pooling.exe
+  test_pooling.vcxproj -> D:/ncnn_win32/builds/tests/Debug/test_pooling.pdb (Full PDB)

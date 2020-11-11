@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/ncnn_win32/tests/CMakeLists.txt
+  test_packing.cpp
+D:\ncnn_win32\tests\test_packing.cpp(55): warning C4305: “参数”: 从“double”到“float”截断
+  test_packing.vcxproj -> D:\ncnn_win32\builds\tests\Debug\test_packing.exe
+  test_packing.vcxproj -> D:/ncnn_win32/builds/tests/Debug/test_packing.pdb (Full PDB)

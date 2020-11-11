@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\ncnn_win32\src\allocator.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\blob.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\command.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\cpu.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\datareader.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\gpu.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\mat.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\mat_pixel.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\mat_pixel_resize.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\mat_pixel_rotate.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\modelbin.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\net.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\opencv.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\option.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\paramdict.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\pipeline.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\benchmark.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\batchnorm.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\bias.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\bnll.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\concat.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\convolution.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\x86\convolution_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\crop.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\deconvolution.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\dropout.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\eltwise.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\elu.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\embed.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\exp.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\flatten.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\innerproduct.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\input.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\log.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\lrn.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\memorydata.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\mvn.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\pooling.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\power.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\prelu.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\proposal.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\reduction.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\relu.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\reshape.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\roipooling.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\scale.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\sigmoid.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\slice.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\softmax.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\split.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\tanh.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\threshold.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\lstm.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\binaryop.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\unaryop.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\convolutiondepthwise.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\x86\convolutiondepthwise_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\padding.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\squeeze.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\expanddims.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\normalize.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\permute.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\priorbox.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\detectionoutput.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\interp.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\deconvolutiondepthwise.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\shufflechannel.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\instancenorm.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\clip.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\reorg.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\yolodetectionoutput.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\quantize.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\dequantize.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\yolov3detectionoutput.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\psroipooling.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\packing.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\requantize.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\cast.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\x86\cast_x86.cpp">
+      <Filter>sources\layers\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\hardsigmoid.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\selu.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\hardswish.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\noop.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\pixelshuffle.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\deepcopy.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ncnn_win32\src\layer\mish.cpp">
+      <Filter>sources\layers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ncnn_win32\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{858648B6-A584-3F83-8D49-091EBE181C68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\layers">
+      <UniqueIdentifier>{BB6091EC-CBE7-3472-BAFF-0928DFDFF85D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\layers\x86">
+      <UniqueIdentifier>{4688761B-3679-3CE0-95EB-61DFC62AA848}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

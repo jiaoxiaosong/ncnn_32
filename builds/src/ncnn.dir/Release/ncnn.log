@@ -1,0 +1,110 @@
+﻿  Building Custom Rule D:/ncnn_win32/src/CMakeLists.txt
+  allocator.cpp
+  blob.cpp
+  command.cpp
+  cpu.cpp
+  datareader.cpp
+  gpu.cpp
+  layer.cpp
+D:\ncnn_win32\builds\src\layer_declaration.h(89): warning C4250: “ncnn::Convolution_final”: 通过域控制继承“ncnn::Convolution_x86::ncnn::Convolution_x86::forward”
+  d:\ncnn_win32\src\layer/x86/convolution_x86.h(30): note: 参见“ncnn::Convolution_x86::forward”的声明
+D:\ncnn_win32\builds\src\layer_declaration.h(653): warning C4250: “ncnn::ConvolutionDepthWise_final”: 通过域控制继承“ncnn::ConvolutionDepthWise_x86::ncnn::ConvolutionDepthWise_x86::forward”
+  d:\ncnn_win32\src\layer/x86/convolutiondepthwise_x86.h(30): note: 参见“ncnn::ConvolutionDepthWise_x86::forward”的声明
+D:\ncnn_win32\builds\src\layer_declaration.h(1013): warning C4250: “ncnn::Cast_final”: 通过域控制继承“ncnn::Cast_x86::ncnn::Cast_x86::forward”
+  d:\ncnn_win32\src\layer/x86/cast_x86.h(27): note: 参见“ncnn::Cast_x86::forward”的声明
+  mat.cpp
+  mat_pixel.cpp
+  mat_pixel_resize.cpp
+  mat_pixel_rotate.cpp
+  modelbin.cpp
+  net.cpp
+  opencv.cpp
+  option.cpp
+  paramdict.cpp
+  pipeline.cpp
+  benchmark.cpp
+  batchnorm.cpp
+  bias.cpp
+  正在生成代码...
+  正在编译...
+  bnll.cpp
+  concat.cpp
+  convolution.cpp
+  convolution_x86.cpp
+  crop.cpp
+  deconvolution.cpp
+  dropout.cpp
+  eltwise.cpp
+  elu.cpp
+  embed.cpp
+  exp.cpp
+  flatten.cpp
+  innerproduct.cpp
+  input.cpp
+  log.cpp
+  lrn.cpp
+  memorydata.cpp
+  mvn.cpp
+  pooling.cpp
+  power.cpp
+  正在生成代码...
+  正在编译...
+  prelu.cpp
+  proposal.cpp
+  reduction.cpp
+  relu.cpp
+  reshape.cpp
+  roipooling.cpp
+  scale.cpp
+  sigmoid.cpp
+  slice.cpp
+  softmax.cpp
+  split.cpp
+  tanh.cpp
+  threshold.cpp
+  lstm.cpp
+  binaryop.cpp
+  unaryop.cpp
+  convolutiondepthwise.cpp
+  convolutiondepthwise_x86.cpp
+  padding.cpp
+  squeeze.cpp
+  正在生成代码...
+  正在编译...
+  expanddims.cpp
+D:\ncnn_win32\src\layer\expanddims.cpp(49): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+D:\ncnn_win32\src\layer\expanddims.cpp(50): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+D:\ncnn_win32\src\layer\expanddims.cpp(51): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+  normalize.cpp
+  permute.cpp
+  priorbox.cpp
+D:\ncnn_win32\src\layer\priorbox.cpp(45): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+D:\ncnn_win32\src\layer\priorbox.cpp(46): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  detectionoutput.cpp
+  interp.cpp
+  deconvolutiondepthwise.cpp
+  shufflechannel.cpp
+  instancenorm.cpp
+  clip.cpp
+  reorg.cpp
+  yolodetectionoutput.cpp
+  quantize.cpp
+  dequantize.cpp
+  yolov3detectionoutput.cpp
+  psroipooling.cpp
+  packing.cpp
+  requantize.cpp
+D:\ncnn_win32\src\layer\requantize.cpp(44): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  cast.cpp
+  cast_x86.cpp
+  正在生成代码...
+  正在编译...
+  hardsigmoid.cpp
+  selu.cpp
+  hardswish.cpp
+  noop.cpp
+  pixelshuffle.cpp
+  deepcopy.cpp
+  mish.cpp
+  正在生成代码...
+  ncnn.vcxproj -> D:\ncnn_win32\builds\src\Release\ncnn.lib

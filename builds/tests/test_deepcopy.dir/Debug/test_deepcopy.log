@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/ncnn_win32/tests/CMakeLists.txt
+  test_deepcopy.cpp
+  test_deepcopy.vcxproj -> D:\ncnn_win32\builds\tests\Debug\test_deepcopy.exe
+  test_deepcopy.vcxproj -> D:/ncnn_win32/builds/tests/Debug/test_deepcopy.pdb (Full PDB)

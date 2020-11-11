@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/ncnn_win32/tools/CMakeLists.txt
+  ncnn2mem.cpp
+  ncnn2mem.vcxproj -> D:\ncnn_win32\builds\tools\Debug\ncnn2mem.exe
+  ncnn2mem.vcxproj -> D:/ncnn_win32/builds/tools/Debug/ncnn2mem.pdb (Full PDB)

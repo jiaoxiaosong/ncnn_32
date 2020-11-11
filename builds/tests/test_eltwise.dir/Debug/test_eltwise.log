@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/ncnn_win32/tests/CMakeLists.txt
+  test_eltwise.cpp
+  test_eltwise.vcxproj -> D:\ncnn_win32\builds\tests\Debug\test_eltwise.exe
+  test_eltwise.vcxproj -> D:/ncnn_win32/builds/tests/Debug/test_eltwise.pdb (Full PDB)

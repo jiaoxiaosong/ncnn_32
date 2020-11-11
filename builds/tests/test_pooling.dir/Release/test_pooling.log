@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/ncnn_win32/tests/CMakeLists.txt
+  test_pooling.cpp
+  test_pooling.vcxproj -> D:\ncnn_win32\builds\tests\Release\test_pooling.exe

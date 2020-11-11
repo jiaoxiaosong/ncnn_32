@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeParseImplicitLinkInfo.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindOpenMP.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageMessage.cmake
+D:/ncnn_win32/cmake/ncnnConfig.cmake.in
+D:/ncnn_win32/cmake/ncnn_generate_shader_spv_header.cmake
+D:/ncnn_win32/src/CMakeLists.txt
+D:/ncnn_win32/src/layer_declaration.h.in
+D:/ncnn_win32/src/layer_registry.h.in
+D:/ncnn_win32/src/layer_shader_registry.h.in
+D:/ncnn_win32/src/layer_shader_spv_data.h.in
+D:/ncnn_win32/src/layer_shader_type_enum.h.in
+D:/ncnn_win32/src/layer_type_enum.h.in
+D:/ncnn_win32/src/platform.h.in

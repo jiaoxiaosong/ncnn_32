@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/ncnn_win32/tests/CMakeLists.txt
+  test_deconvolutiondepthwise.cpp
+  test_deconvolutiondepthwise.vcxproj -> D:\ncnn_win32\builds\tests\Debug\test_deconvolutiondepthwise.exe
+  test_deconvolutiondepthwise.vcxproj -> D:/ncnn_win32/builds/tests/Debug/test_deconvolutiondepthwise.pdb (Full PDB)

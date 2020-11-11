@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/ncnn_win32/benchmark/CMakeLists.txt
+  benchncnn.cpp
+  benchncnn.vcxproj -> D:\ncnn_win32\builds\benchmark\Debug\benchncnn.exe
+  benchncnn.vcxproj -> D:/ncnn_win32/builds/benchmark/Debug/benchncnn.pdb (Full PDB)

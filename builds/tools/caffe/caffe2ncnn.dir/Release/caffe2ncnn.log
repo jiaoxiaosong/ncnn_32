@@ -1,0 +1,146 @@
+﻿  Running cpp protocol buffer compiler on caffe.proto
+  Building Custom Rule D:/ncnn_win32/tools/caffe/CMakeLists.txt
+  caffe2ncnn.cpp
+D:\protobuf-3.4.0_win32\builds\install\include\google/protobuf/io/coded_stream.h(870): warning C4800: “google::protobuf::internal::AtomicWord”: 将值强制为布尔值“true”或“false”(性能警告)
+D:\protobuf-3.4.0_win32\builds\install\include\google/protobuf/io/coded_stream.h(874): warning C4800: “google::protobuf::internal::Atomic32”: 将值强制为布尔值“true”或“false”(性能警告)
+D:\protobuf-3.4.0_win32\builds\install\include\google/protobuf/generated_message_util.h(160): warning C4800: “google::protobuf::uint32”: 将值强制为布尔值“true”或“false”(性能警告)
+D:\ncnn_win32\tools\caffe\caffe2ncnn.cpp(1527): warning C4477: 'fprintf' : format string '%zd' requires an argument of type 'unsigned int', but variadic argument 2 has type 'google::protobuf::int64'
+  D:\ncnn_win32\tools\caffe\caffe2ncnn.cpp(1527): note: consider using '%lld' in the format string
+  D:\ncnn_win32\tools\caffe\caffe2ncnn.cpp(1527): note: consider using '%I64d' in the format string
+  caffe.pb.cc
+D:\protobuf-3.4.0_win32\builds\install\include\google/protobuf/io/coded_stream.h(870): warning C4800: “google::protobuf::internal::AtomicWord”: 将值强制为布尔值“true”或“false”(性能警告)
+D:\protobuf-3.4.0_win32\builds\install\include\google/protobuf/io/coded_stream.h(874): warning C4800: “google::protobuf::internal::Atomic32”: 将值强制为布尔值“true”或“false”(性能警告)
+D:\protobuf-3.4.0_win32\builds\install\include\google/protobuf/generated_message_util.h(160): warning C4800: “google::protobuf::uint32”: 将值强制为布尔值“true”或“false”(性能警告)
+  正在生成代码...
+libprotobufd.lib(coded_stream.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(coded_stream.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(zero_copy_stream_impl_lite.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(zero_copy_stream_impl_lite.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(zero_copy_stream_impl.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(zero_copy_stream_impl.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(message_lite.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(message_lite.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(text_format.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(text_format.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(common.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(common.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(arena.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(arena.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(once.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(once.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(repeated_field.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(repeated_field.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(wire_format_lite.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(wire_format_lite.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(generated_message_util.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(generated_message_util.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(unknown_field_set.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(unknown_field_set.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(descriptor.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(descriptor.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(message.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(message.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(generated_message_reflection.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(generated_message_reflection.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(reflection_ops.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(reflection_ops.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(wire_format.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(wire_format.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(zero_copy_stream.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(zero_copy_stream.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(io_win32.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(io_win32.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(stringprintf.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(stringprintf.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(any.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(any.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(strtod.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(strtod.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(tokenizer.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(tokenizer.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(dynamic_message.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(dynamic_message.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(strutil.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(strutil.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(status.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(status.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(int128.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(int128.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(atomicops_internals_x86_msvc.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(atomicops_internals_x86_msvc.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(structurally_valid.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(structurally_valid.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(extension_set.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(extension_set.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(stringpiece.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(stringpiece.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(descriptor.pb.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(descriptor.pb.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(descriptor_database.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(descriptor_database.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(substitute.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(substitute.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(map_field.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(map_field.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+libprotobufd.lib(extension_set_heavy.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“2”不匹配值“0”(caffe2ncnn.obj 中)
+libprotobufd.lib(extension_set_heavy.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MDd_DynamicDebug”不匹配值“MD_DynamicRelease”(caffe2ncnn.obj 中)
+LINK : warning LNK4098: 默认库“MSVCRTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+libprotobufd.lib(extension_set_heavy.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(descriptor.pb.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(descriptor_database.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(substitute.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(map_field.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(status.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(int128.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(extension_set.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(stringpiece.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(strtod.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(tokenizer.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(dynamic_message.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(strutil.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(wire_format.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(io_win32.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(stringprintf.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(any.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(descriptor.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(message.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(generated_message_reflection.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(reflection_ops.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(common.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(wire_format_lite.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(generated_message_util.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(unknown_field_set.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(coded_stream.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(zero_copy_stream_impl_lite.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(message_lite.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(text_format.obj) : error LNK2001: 无法解析的外部符号 __imp___invalid_parameter
+libprotobufd.lib(extension_set_heavy.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(descriptor.pb.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(descriptor_database.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(substitute.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(map_field.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(status.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(int128.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(extension_set.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(stringpiece.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(strtod.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(tokenizer.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(dynamic_message.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(strutil.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(wire_format.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(io_win32.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(stringprintf.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(any.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(descriptor.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(message.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(generated_message_reflection.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(reflection_ops.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(common.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(wire_format_lite.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(generated_message_util.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(unknown_field_set.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(coded_stream.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(zero_copy_stream_impl_lite.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(message_lite.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+libprotobufd.lib(text_format.obj) : error LNK2001: 无法解析的外部符号 __imp___CrtDbgReportW
+D:\ncnn_win32\builds\tools\caffe\Release\caffe2ncnn.exe : fatal error LNK1120: 2 个无法解析的外部命令

@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/ncnn_win32/tests/CMakeLists.txt
+  test_unaryop.cpp
+  test_unaryop.vcxproj -> D:\ncnn_win32\builds\tests\Debug\test_unaryop.exe
+  test_unaryop.vcxproj -> D:/ncnn_win32/builds/tests/Debug/test_unaryop.pdb (Full PDB)

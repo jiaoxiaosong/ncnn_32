@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2928DC5A-7103-3382-8A97-1A7443F50432}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ncnn</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ncnn_win32\builds\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ncnn.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ncnn</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\ncnn_win32\builds\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ncnn.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ncnn</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\ncnn_win32\builds\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ncnn.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ncnn</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\ncnn_win32\builds\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ncnn.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ncnn</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ncnn_win32\src;D:\ncnn_win32\builds\src;D:\ncnn_win32\src\layer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ncnn_win32\src;D:\ncnn_win32\builds\src;D:\ncnn_win32\src\layer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ncnn_win32\src;D:\ncnn_win32\builds\src;D:\ncnn_win32\src\layer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ncnn_win32\src;D:\ncnn_win32\builds\src;D:\ncnn_win32\src\layer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ncnn_win32\src;D:\ncnn_win32\builds\src;D:\ncnn_win32\src\layer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ncnn_win32\src;D:\ncnn_win32\builds\src;D:\ncnn_win32\src\layer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ncnn_win32\src;D:\ncnn_win32\builds\src;D:\ncnn_win32\src\layer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ncnn_win32\src;D:\ncnn_win32\builds\src;D:\ncnn_win32\src\layer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ncnn_win32\src;D:\ncnn_win32\builds\src;D:\ncnn_win32\src\layer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ncnn_win32\src;D:\ncnn_win32\builds\src;D:\ncnn_win32\src\layer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ncnn_win32\src;D:\ncnn_win32\builds\src;D:\ncnn_win32\src\layer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ncnn_win32\src;D:\ncnn_win32\builds\src;D:\ncnn_win32\src\layer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ncnn_win32\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/ncnn_win32/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ncnn_win32 -BD:/ncnn_win32/builds --check-stamp-file D:/ncnn_win32/builds/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\ncnn_win32\cmake\ncnnConfig.cmake.in;D:\ncnn_win32\cmake\ncnn_generate_shader_spv_header.cmake;D:\ncnn_win32\src\layer_declaration.h.in;D:\ncnn_win32\src\layer_registry.h.in;D:\ncnn_win32\src\layer_shader_registry.h.in;D:\ncnn_win32\src\layer_shader_spv_data.h.in;D:\ncnn_win32\src\layer_shader_type_enum.h.in;D:\ncnn_win32\src\layer_type_enum.h.in;D:\ncnn_win32\src\platform.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ncnn_win32\builds\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/ncnn_win32/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ncnn_win32 -BD:/ncnn_win32/builds --check-stamp-file D:/ncnn_win32/builds/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\ncnn_win32\cmake\ncnnConfig.cmake.in;D:\ncnn_win32\cmake\ncnn_generate_shader_spv_header.cmake;D:\ncnn_win32\src\layer_declaration.h.in;D:\ncnn_win32\src\layer_registry.h.in;D:\ncnn_win32\src\layer_shader_registry.h.in;D:\ncnn_win32\src\layer_shader_spv_data.h.in;D:\ncnn_win32\src\layer_shader_type_enum.h.in;D:\ncnn_win32\src\layer_type_enum.h.in;D:\ncnn_win32\src\platform.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\ncnn_win32\builds\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/ncnn_win32/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ncnn_win32 -BD:/ncnn_win32/builds --check-stamp-file D:/ncnn_win32/builds/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\ncnn_win32\cmake\ncnnConfig.cmake.in;D:\ncnn_win32\cmake\ncnn_generate_shader_spv_header.cmake;D:\ncnn_win32\src\layer_declaration.h.in;D:\ncnn_win32\src\layer_registry.h.in;D:\ncnn_win32\src\layer_shader_registry.h.in;D:\ncnn_win32\src\layer_shader_spv_data.h.in;D:\ncnn_win32\src\layer_shader_type_enum.h.in;D:\ncnn_win32\src\layer_type_enum.h.in;D:\ncnn_win32\src\platform.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\ncnn_win32\builds\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/ncnn_win32/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ncnn_win32 -BD:/ncnn_win32/builds --check-stamp-file D:/ncnn_win32/builds/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;D:\ncnn_win32\cmake\ncnnConfig.cmake.in;D:\ncnn_win32\cmake\ncnn_generate_shader_spv_header.cmake;D:\ncnn_win32\src\layer_declaration.h.in;D:\ncnn_win32\src\layer_registry.h.in;D:\ncnn_win32\src\layer_shader_registry.h.in;D:\ncnn_win32\src\layer_shader_spv_data.h.in;D:\ncnn_win32\src\layer_shader_type_enum.h.in;D:\ncnn_win32\src\layer_type_enum.h.in;D:\ncnn_win32\src\platform.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\ncnn_win32\builds\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\ncnn_win32\src\allocator.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\blob.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\command.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\cpu.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\datareader.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\gpu.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\mat.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\mat_pixel.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\mat_pixel_resize.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\mat_pixel_rotate.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\modelbin.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\net.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\opencv.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\option.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\paramdict.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\pipeline.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\benchmark.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\batchnorm.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\bias.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\bnll.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\concat.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\convolution.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\x86\convolution_x86.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\crop.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\deconvolution.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\dropout.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\eltwise.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\elu.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\embed.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\exp.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\flatten.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\innerproduct.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\input.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\log.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\lrn.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\memorydata.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\mvn.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\pooling.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\power.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\prelu.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\proposal.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\reduction.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\relu.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\reshape.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\roipooling.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\scale.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\sigmoid.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\slice.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\softmax.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\split.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\tanh.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\threshold.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\lstm.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\binaryop.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\unaryop.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\convolutiondepthwise.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\x86\convolutiondepthwise_x86.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\padding.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\squeeze.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\expanddims.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\normalize.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\permute.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\priorbox.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\detectionoutput.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\interp.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\deconvolutiondepthwise.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\shufflechannel.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\instancenorm.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\clip.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\reorg.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\yolodetectionoutput.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\quantize.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\dequantize.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\yolov3detectionoutput.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\psroipooling.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\packing.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\requantize.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\cast.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\x86\cast_x86.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\hardsigmoid.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\selu.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\hardswish.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\noop.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\pixelshuffle.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\deepcopy.cpp" />
+    <ClCompile Include="D:\ncnn_win32\src\layer\mish.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\ncnn_win32\builds\ZERO_CHECK.vcxproj">
+      <Project>{4332727A-93F8-33C6-A309-44B92C4ACAD0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\ncnn_win32\builds\src\generate-spirv.vcxproj">
+      <Project>{25A108AC-C2DC-340A-904E-549ECC02D5CE}</Project>
+      <Name>generate-spirv</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

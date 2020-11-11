@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/ncnn_win32/tests/CMakeLists.txt
+  test_lrn.cpp
+  test_lrn.vcxproj -> D:\ncnn_win32\builds\tests\Debug\test_lrn.exe
+  test_lrn.vcxproj -> D:/ncnn_win32/builds/tests/Debug/test_lrn.pdb (Full PDB)

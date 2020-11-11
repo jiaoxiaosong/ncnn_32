@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/ncnn_win32/tests/CMakeLists.txt
+  test_permute.cpp
+  test_permute.vcxproj -> D:\ncnn_win32\builds\tests\Debug\test_permute.exe
+  test_permute.vcxproj -> D:/ncnn_win32/builds/tests/Debug/test_permute.pdb (Full PDB)

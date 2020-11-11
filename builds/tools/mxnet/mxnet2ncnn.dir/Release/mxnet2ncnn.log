@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/ncnn_win32/tools/mxnet/CMakeLists.txt
+  mxnet2ncnn.cpp
+D:\ncnn_win32\tools\mxnet\mxnet2ncnn.cpp(139): warning C4129: “[”: 不可识别的字符转义序列
+  mxnet2ncnn.vcxproj -> D:\ncnn_win32\builds\tools\mxnet\Release\mxnet2ncnn.exe
